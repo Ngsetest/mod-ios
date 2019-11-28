@@ -1,0 +1,415 @@
+/*
+ Localizable.strings
+ Moda
+ 
+ Created by admin_user on 3/16/19.
+ Copyright © 2019 moda. All rights reserved.
+ */
+
+//"mainview_with_discount" = "Со скидкой";
+//"mainview_popular" = "Популярное";
+//"mainview_new" = "Новые";
+
+"search" = "Поиск";
+"search_placeholder" = "Поиск вещей и брендов";
+
+"understandably" = "Понятно";
+
+"similar_goods" = "Похожие товары";
+"your_history_view" = "Вы недавно просматривали";
+
+"yes" = "Да";
+"ok" = "OK";
+"no" = "Нет";
+"delete" = "Удалить";
+"buy" = "Купить";
+"ready" = "готово";
+"cancel" = "Отмена";
+"pass" = "Пропустить";
+"color" = "Цвет";
+"size" = "Размер";
+"quantity" = "Количество";
+"total" = "всего";
+"generally" = "Итого";
+"pcs" = "шт.";
+"products_in_genitive" = "Товаров";
+
+
+"brands" = "Бренды";
+"categories" = "Категории";
+"goods" = "Товары";
+
+
+"do_password_recover" = "Восстановить пароль";
+
+"password_recover" = "Восстановление пароля";
+"registration"= "Регистрация";
+
+
+
+"selection" = "Подборка";
+"catalog" = "Каталог";
+"favorites" = "Избранное";
+"profile" = "Профиль";
+"basket" = "Корзина";
+
+
+"other_goods" = "Другие товары";
+"all"   = "Все";
+"others" = "Другие";
+
+
+"error_connection" = "К сожалению, произошла ошибка соединения. Пожалуйста, подключитесь к интернету.";
+
+"check_your_mail" = "Пожалуйста, осуществите смену пароля через инструкцию, отправленную на Вашу почту";
+
+// genders selection
+
+"woman_selector" = "Женщинам";
+"man_selector" = "Мужчинам";
+"children_selector" = "Детям";
+"home_selector" = "Для дома";
+
+
+// user info fields
+
+"customer" = "Заказчик";
+"name" = "Имя";
+"last_name" = "Фамилия";
+"mail" = "Эл. почта";
+"phone" = "Номер телефона";
+"address" = "Адрес";
+"repassword" = "Подтверждение пароля";
+
+"message_subject" = "Тема сообщения";
+"send" = "Отправить";
+
+// check order
+"wrong_number" = "Неверно указан номер";
+"check_order_status" = "Проверить статус заказа";
+"co_text_if_something_1" = "Если у вас остались жалобы или вопросы по заказу или вы не можете вспомнить номер заказа, просим обратиться в ";
+"co_text_if_something_2" = "службу поддержки.";
+
+
+"order_number" = "Номер заказа";
+
+"order_num" = "Заказ № ";
+"status_" = "Статус : ";
+
+
+// profil
+
+"already_registered" = "Уже зарегистрированы?";
+"do_registration" = "Зарегистрироваться";
+"create_user" = "Создать учётную запись";  
+"start_session" = "Начать сеанс";
+"forgot_password" = "Забыли пароль?";
+"password" = "Пароль";
+
+"my_orders" = "Сделанные заказы";
+"registraion" = "Регистрация нового аккаунта";
+
+// login
+"wrong_login_data" = "Имя пользователя и пароль не соответствуют какому-либо аккаунту Mod.uz";
+"wrong_mail" = "Неверно указана почта";
+"wrong_phone_number"= "Неверно указан номер телефона";
+"wrong_name" = "Неверно указано имя";
+"wrong_surname" = "Неверно указана фамилия";
+"password_is_longer" = "Пароль должен быть длиннее";
+"passwords_are_different" = "Пароли не совпадают";
+"should_not_be_empty" = "Поле не должно быть пустым";
+
+"logout" = "Выйти";
+
+// product view
+"info_about_good" = "ИНФОРМАЦИЯ О ПРОДУКТЕ";
+"info_composition_care" = "СОСТАВ И УХОД";
+
+"share" = "ПОДЕЛИТЬСЯ";
+"no_size" = "Размер не выбран";
+"choose_size" = "Выберите размер";
+
+"no_goods_left" = "К сожалению товар закончился";
+
+"find_my_size" = "Найти мой размер";
+"add_to_cart" = "Добавить в корзину";
+"add_to_favorites" = "Добавить в избранное";
+
+// summery order
+
+"delivery_type" = "Тип доставки";
+"payment_amount" = "Cумма оплаты";
+"delivery_date" = "Время доставки";
+
+"lbl_payment_amount" = "Cумма к оплате";
+"lbl_was_payed" = "Оплачен";
+"lbl_payment_type" = "Способ оплаты";
+
+"dt_normal" = "Обычная";
+"dt_express" = "Express";
+"dt_full" = "Полная";
+"dt_after_delivery" = "после доставки";
+
+
+
+"cost_shipping" = "Цена доставки";
+"discount_shipping" = "Скидка на отправку";
+
+
+// order complete
+
+"your_order_num_completed" = "Ваш заказ № : %d успешно оформлен";
+
+"delivery_ordinary" = "Отправка: стандартным курьером";
+"delivery_express" = "Отправка: экспресс";
+
+"was_payed_complete" = "Оплачено полностью";
+"was_payed_half" = "Частично оплачено";
+"will_be_payed" = "Оплата при получении";
+
+"warning_after_order_completed" =  "Внимание! После обработки заявки Вы получите смс уведомление либо с Вами свяжется наш менеджер для подтверждения заказа № %d";
+
+"congratulations_payment_completed" = "Поздравляем! Ваша оплата прошла успешно";
+"sms_was_sent_on_num" = "На номер %@ было выслано SMS с подтверждением";
+"sms_was_sent_with_code" = "На номер %@ было выслано SMS с проверочным кодом";
+
+"put_in_code" = "Введите проверочный код";
+"code_for_check" = "Проверочный код";
+
+"thanks" = "Спасибо!";
+"thanks_for_order" = "Спасибо за заказ!";
+"we_will_connect" =  "Мы свяжемся с вами в ближайшее время";
+
+"information_about_order" = "Сводная информация";
+
+
+// small views
+
+"choose_interval" = "Выберите интервал";
+"choose_delivery_interval" = "Выберите интервал доставки";
+"choose_delivery_date" = "Выберите дату доставки";
+"choose_date" = "Выберите доступную дату";
+
+"filter" = "Фильтр";
+
+"welcome" = "Добро пожаловать";
+
+"put_in_text" = "Введите сообщение";
+ 
+"show_results" = "Показать результаты";
+
+"write_us" = "Напишите нам";
+"call_us" = "Позвоните нам";
+
+
+"colors" = "Цвета";
+"prices" = "Цены";
+"sizes" = "Размеры";
+"brands" = "Бренды";
+"categories" = "Категории";
+
+"your_data" = "Ваши данные";
+"infoLabel_order_call" = "Оставьте нам свой номер телефона и мы перезвоним Вам в течении 5-ти минут";
+
+
+"to_call" = "Позвонить";
+"call_time" = "С Понедельника по пятницу с 9:00 по 21:00";
+
+// delivery
+
+"choose_delivery_type" = "Выберите тип доставки";
+"normal_delivery" = "Обычная доставка";
+"delivery_normal_description_1" = "Доставка осуществляется от 4 до 6 рабочих дней.";
+"delivery_normal_description_2" = "Стоимость доставки варьируется от стоимости заказа.";
+
+"checkout" = "Оформление заказа";
+"how_to_contact_you" = "Как с вами связаться?";
+"do_subscribe" = "Подписаться на рассылку";
+"continue" = "Продолжить";
+
+
+"delivery_address" = "Адрес доставки";
+"enter_shipping_address" = "Укажите адрес доставки";
+"adress_structure" = "Адрес (город, улица, дом, квартира...)";
+
+"payment_amount_description" = "Для того, чтобы осуществить заказ, можно внести полную предоплату, либо олатить после прибытия.";
+
+
+"total_amount" = "Полная сумма";
+"total_amount_description" = "Полная сумма означает, что Вы должны оплатить всю сумму заказа и необходимую сумму доставки";
+
+"payment_after" = "Оплата после доставки";
+"payment_after_description" = "Вы сможете оплатить заказ и доставку после прибытия";
+
+"specify_delivery_time" = "Укажите время доставки";
+"time_days" = "Доставка осуществляется от 4 до 6 рабочих дней";
+
+
+"enter_card_info" = "Введите реквезиты банковской карты";
+"make_payment" = "Совершить оплату";
+
+"order_info" = "Информация о заказе";
+
+// sorting
+
+"sort_catalogue" = "Сортировать каталог";
+"on_popularity" = "по популярности";
+"on_price_upp" =  "по возрастанию цены";
+"on_price_down" =  "по убыванию цены";
+"on_new" = "по новинкам";
+"on_discounts" = "по скидкам";
+
+
+// basket
+
+"tax_info_line" = "Включая налоги за исключением доставки";
+"change" = "Изменить";
+"save" = "Сохранить";
+
+
+
+
+
+//Network Errors
+
+"wrong_user_or_pass" = "Неправильное имя пользователя или пароль.";
+"wrong_method_on_server" = "Проверьте соединение (405)";
+
+
+// new
+
+"date_of_order" = "Дата заказа";
+
+"sku" = "Артикул";
+
+
+"find_order_status" = "Узнать, где мой заказ";
+"find_conditions" = "Узнать сроки и условия";
+"choose_right_size" = "Выбрать правильный размер";
+
+
+"order_with_number" = "Статус заказа по номеру";
+"payment_conditions" = "Оплата";
+"return_conditions" = "Условия возврата";
+"delivery_conditions" = "Условия доставки";
+"how_choose_size" = "Как выбрать размер";
+"how_make_order" = "Как оформить заказ";
+"oferta" = "Оферта";
+
+
+"want_to_exit" = "Хотите выйти?";
+"payment" = "Оплата";
+"support_service" = "Служба поддержки";
+
+
+"order_call" = "Заказать звонок";
+"question_ask" = "Задать нам вопрос";
+"our_contacts" = "Наши контакты";
+
+
+
+//tutorial 
+
+"notif_turn_on_text" = "Включите уведомления, чтобы получать информацию о следующих темах:";
+
+"tutorial_text_1" = "Отслеживание заказа";
+"tutorial_text_2" = "Товары имеются в наличии";
+"tutorial_text_3" = "Специальные события";
+
+
+// basket
+
+"basket_empty" = "В вашей корзине\n пока ничего нет";
+
+
+// favorites
+
+"favorites_empty_2"= "Вы пока ничего не добавили в избранное";
+ 
+
+
+// delivery
+
+
+"choose_delivery_conditions" = "Выберите условия доставки";
+
+"region" = "Город";
+"street" = "Улица";
+"house" = "Дом";
+"flat" = "Квартира";
+
+
+"delivery_date" = "Дата доставки: ";
+
+
+"delivery_price_" = "Стоимость доставки: ";
+"delivery_price_description" = "Стоимость доставки - %@ вне зависимости от суммы покупки";
+
+"choose_button" = "Выбрать";
+"choosen" = "Выбрано";
+
+"countryDefault" = "Узбекистан";
+"cityDefault" = "Ташкент";
+
+"choose_payment_method" = "Выберите способ оплаты";
+
+
+"payment_with_card" = "Оплата онлайн картой";
+"goods_in_order" = "Товаров в заказе";
+"goods_for_summ_in_order" = "Товаров на сумму";
+"delivery" = "Доставка";
+"discounts" = "Скидки";
+
+
+
+"delivery_time_today" = "Доставка день в день";
+"delivery_time_hour" = "Доставка стандартная";
+"see_all" = "Посмотреть все";
+"start_buy" = "Смотреть товары";
+"start_buy2" = "Начать покупки";
+
+
+
+"favorites_empt_1" = "Здесь пока пусто";
+
+"filters" = "Фильтры";
+
+"label_description_in_contact_us" = "Если у Вас возникли любые вопросы по заказу, оформлению, статусу или доставке - пишите нам в чат. Мы будем рады помочь Вам!";
+"you_can_also_call" = "Вы так же можете позвонить нам по телефонам";
+
+"call_1_description"= "для звонков из регионов";
+"call_2_description"= "для звонков из Ташкента";
+
+
+"send_button"= "Отправить";
+"bonus_title" = "Привелегии";
+"bonus_title_text" = "Увеличивайте персональную скидку, сохраняйте избранное, получайте персональные рекомендации.";
+
+"do_login" = "Войти";
+
+
+"title_country" = "Выберите страну";
+"have_questions_" = "Остались вопросы?";
+"delivery_big_title" = "Доставка и возврат";
+"delivery_big_title" = "Доставка и возврат";
+"refund" = "Возврат";
+"refund_info" = "В течении 14 дней после получения заказа";
+"to_favorites" = "В избранное";
+
+
+"premium_styles" = "Premium styles";
+
+"see_all" = "See all";
+
+"call_you_" = "Позвонить Вам?";
+"faq"  = "Часто задаваемые вопросы";
+"support_service_MOD" = "Центр поддержки MOD";
+"about_MOD" = "О MOD";
+
+"more_questions" = "Остались вопросы по товару";
+"delivery_fitting" = "Доставка и примерка";
+
+"choose_lang" = "Выберите язык";
+
+"no_content" = "Раздел наполняется и скоро будет доступен для просмотра";
+"mod_lcc" = "С УВАЖЕНИЕМ MOD LLC";

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gerbera-Bold.otf">
+            <string>Gerbera-Bold</string>
+        </array>
+        <array key="Gerbera.otf">
+            <string>Gerbera</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="451" id="KGk-i7-Jjw" customClass="BrandsTableViewCell" customModule="Moda" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="334" height="451"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="334" height="450.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fx2-rX-q4b">
+                        <rect key="frame" x="0.0" y="0.0" width="334" height="54"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="БРЕНДЫ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMX-1e-bPv">
+                                <rect key="frame" x="139.5" y="19.5" width="55.5" height="15.5"/>
+                                <fontDescription key="fontDescription" name="Gerbera-Bold" family="Gerbera" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down-chevron-1" translatesAutoresizingMaskIntoConstraints="NO" id="3W1-fF-EtJ">
+                                <rect key="frame" x="302" y="19" width="16" height="16"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FTM-Li-nsp">
+                                <rect key="frame" x="167" y="38" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Gerbera" family="Gerbera" pointSize="12"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="FTM-Li-nsp" firstAttribute="top" secondItem="NMX-1e-bPv" secondAttribute="bottom" constant="3" id="20s-Ki-al8"/>
+                            <constraint firstItem="NMX-1e-bPv" firstAttribute="centerX" secondItem="Fx2-rX-q4b" secondAttribute="centerX" id="DRO-JJ-Pgt"/>
+                            <constraint firstItem="FTM-Li-nsp" firstAttribute="centerX" secondItem="Fx2-rX-q4b" secondAttribute="centerX" id="UEs-Cb-6v4"/>
+                            <constraint firstAttribute="trailing" secondItem="3W1-fF-EtJ" secondAttribute="trailing" constant="16" id="Uwb-e6-6BM"/>
+                            <constraint firstItem="3W1-fF-EtJ" firstAttribute="centerY" secondItem="NMX-1e-bPv" secondAttribute="centerY" id="aS1-ZO-ypV"/>
+                            <constraint firstAttribute="height" constant="54" id="eOn-ES-5RX"/>
+                            <constraint firstItem="NMX-1e-bPv" firstAttribute="centerY" secondItem="Fx2-rX-q4b" secondAttribute="centerY" id="oFZ-GW-0no"/>
+                        </constraints>
+                    </view>
+                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PHj-h0-45E">
+                        <rect key="frame" x="0.0" y="54" width="334" height="396.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.13725490196078433" green="0.12156862745098039" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="396.5" id="TMV-bQ-ppB"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="dataSource" destination="KGk-i7-Jjw" id="06w-Ee-NMs"/>
+                            <outlet property="delegate" destination="KGk-i7-Jjw" id="bCO-7w-FOh"/>
+                        </connections>
+                    </tableView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Fx2-rX-q4b" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="0ws-Fs-efi"/>
+                    <constraint firstAttribute="trailing" secondItem="Fx2-rX-q4b" secondAttribute="trailing" id="GVk-cD-A39"/>
+                    <constraint firstItem="Fx2-rX-q4b" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="H1V-hi-dkS"/>
+                    <constraint firstItem="PHj-h0-45E" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="RCX-vl-SYP"/>
+                    <constraint firstItem="PHj-h0-45E" firstAttribute="top" secondItem="Fx2-rX-q4b" secondAttribute="bottom" id="e4q-gg-c8H"/>
+                    <constraint firstAttribute="bottom" secondItem="PHj-h0-45E" secondAttribute="bottom" id="hsF-q3-FQT"/>
+                    <constraint firstAttribute="trailing" secondItem="PHj-h0-45E" secondAttribute="trailing" id="mhs-pW-QvS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="arrow" destination="3W1-fF-EtJ" id="9aS-ti-7sn"/>
+                <outlet property="table" destination="PHj-h0-45E" id="eys-V0-707"/>
+                <outlet property="tableHeight" destination="TMV-bQ-ppB" id="EFj-Pc-lAW"/>
+                <outlet property="title" destination="FTM-Li-nsp" id="dOx-mu-i8B"/>
+                <outlet property="titleLabel" destination="NMX-1e-bPv" id="UcJ-69-Ixo"/>
+            </connections>
+            <point key="canvasLocation" x="-164" y="-187.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="down-chevron-1" width="24" height="11"/>
+    </resources>
+</document>

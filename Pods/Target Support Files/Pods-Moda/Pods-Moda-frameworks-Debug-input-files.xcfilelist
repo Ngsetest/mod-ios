@@ -1,0 +1,13 @@
+${PODS_ROOT}/Target Support Files/Pods-Moda/Pods-Moda-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework
+${BUILT_PRODUCTS_DIR}/Caishen/Caishen.framework
+${BUILT_PRODUCTS_DIR}/DatePickerCell/DatePickerCell.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework
+${BUILT_PRODUCTS_DIR}/LUAutocompleteView/LUAutocompleteView.framework
+${BUILT_PRODUCTS_DIR}/RangeSeekSlider/RangeSeekSlider.framework
+${BUILT_PRODUCTS_DIR}/Reqres/Reqres.framework
+${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework
+${BUILT_PRODUCTS_DIR}/SwiftyPlistManager/SwiftyPlistManager.framework
+${BUILT_PRODUCTS_DIR}/TTSegmentedControl/TTSegmentedControl.framework

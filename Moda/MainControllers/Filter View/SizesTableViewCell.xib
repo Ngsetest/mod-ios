@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gerbera-Bold.otf">
+            <string>Gerbera-Bold</string>
+        </array>
+        <array key="Gerbera.otf">
+            <string>Gerbera</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="384" id="KGk-i7-Jjw" customClass="SizesTableViewCell" customModule="Moda" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="348" height="384"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="348" height="383.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gVq-Pm-yC9">
+                        <rect key="frame" x="0.0" y="0.0" width="348" height="54"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="РАЗМЕРЫ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Woa-dU-UsO">
+                                <rect key="frame" x="142" y="19.5" width="64.5" height="15.5"/>
+                                <fontDescription key="fontDescription" name="Gerbera-Bold" family="Gerbera" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down-chevron-1" translatesAutoresizingMaskIntoConstraints="NO" id="BsU-D1-VMo">
+                                <rect key="frame" x="316" y="19" width="16" height="16"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="921-JM-V07">
+                                <rect key="frame" x="174" y="38" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Gerbera" family="Gerbera" pointSize="12"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Woa-dU-UsO" firstAttribute="centerX" secondItem="gVq-Pm-yC9" secondAttribute="centerX" id="1Ee-TK-ARV"/>
+                            <constraint firstItem="Woa-dU-UsO" firstAttribute="centerY" secondItem="gVq-Pm-yC9" secondAttribute="centerY" id="Czq-SC-Lbd"/>
+                            <constraint firstItem="BsU-D1-VMo" firstAttribute="centerY" secondItem="Woa-dU-UsO" secondAttribute="centerY" id="dvf-xv-J42"/>
+                            <constraint firstAttribute="height" constant="54" id="iZ5-Ug-ejG"/>
+                            <constraint firstAttribute="trailing" secondItem="BsU-D1-VMo" secondAttribute="trailing" constant="16" id="nTm-GM-Fgy"/>
+                            <constraint firstItem="921-JM-V07" firstAttribute="centerX" secondItem="gVq-Pm-yC9" secondAttribute="centerX" id="rJk-qB-hKt"/>
+                            <constraint firstItem="921-JM-V07" firstAttribute="top" secondItem="Woa-dU-UsO" secondAttribute="bottom" constant="3" id="rQL-Q4-Znh"/>
+                        </constraints>
+                    </view>
+                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ncn-In-MVb">
+                        <rect key="frame" x="0.0" y="54" width="348" height="329.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="329.5" id="RtZ-yS-oRx"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="dataSource" destination="KGk-i7-Jjw" id="BA7-sB-fRQ"/>
+                            <outlet property="delegate" destination="KGk-i7-Jjw" id="5Pp-bU-T3Y"/>
+                        </connections>
+                    </tableView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gVq-Pm-yC9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Emm-6z-B3H"/>
+                    <constraint firstAttribute="trailing" secondItem="gVq-Pm-yC9" secondAttribute="trailing" id="GJ5-bD-fjH"/>
+                    <constraint firstAttribute="bottom" secondItem="Ncn-In-MVb" secondAttribute="bottom" id="Kgb-bI-iMI"/>
+                    <constraint firstItem="Ncn-In-MVb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="LkK-hT-JhA"/>
+                    <constraint firstAttribute="trailing" secondItem="Ncn-In-MVb" secondAttribute="trailing" id="Oue-3o-ePW"/>
+                    <constraint firstItem="Ncn-In-MVb" firstAttribute="top" secondItem="gVq-Pm-yC9" secondAttribute="bottom" id="SlQ-Dl-9EI"/>
+                    <constraint firstItem="gVq-Pm-yC9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="hEe-pZ-cBh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="arrow" destination="BsU-D1-VMo" id="Zyd-Bn-Hmt"/>
+                <outlet property="table" destination="Ncn-In-MVb" id="FMZ-PH-I0P"/>
+                <outlet property="tableHeight" destination="RtZ-yS-oRx" id="rCj-p9-CCM"/>
+                <outlet property="title" destination="921-JM-V07" id="K7d-Wr-ktz"/>
+                <outlet property="titleLabel" destination="Woa-dU-UsO" id="qpf-uo-TCi"/>
+            </connections>
+            <point key="canvasLocation" x="62" y="-200"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="down-chevron-1" width="24" height="11"/>
+    </resources>
+</document>

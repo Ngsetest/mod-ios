@@ -1,0 +1,424 @@
+/*
+ Localizable.strings
+ Moda
+ 
+ Created by admin_user on 3/16/19.
+ Copyright © 2019 moda. All rights reserved.
+ */
+
+//"mainview_with_discount" = "Чегирма билан";
+//"mainview_popular" = "Машхурлар";
+//"mainview_new" = "Янгилар";
+
+"search" = "Қидирув";
+ 
+"understandably" = "Тушунарли";
+
+"similar_goods" = "Ўхшаш товарлар";
+"your_history_view" = "Кўриб чиқдингиз";
+
+"yes" = "Ха";
+"ok" = "OK";
+"no" = "Йўқ";
+"delete" = "Ўчириш";
+"buy" = "Харид қилиш";
+"ready" = "таййор";
+"cancel" = "Бекор қилиш";
+"pass" = "Ўтказиб юбориш";
+"color" = "Ранг";
+"size" = "Хажми";
+"quantity" = "Сони";
+"total" = "барчаси";
+"generally" = "Жами";
+"pcs" = "дона.";
+"products_in_genitive" = "Товарлар";
+
+"brands" = "Брендлар";
+"categories" = "Тоифалар";
+"goods" = "Товарлар";
+
+
+"do_password_recover" = "Паролни тиклаш";
+
+"password_recover" = "Парол тикланиши";
+"registration"= "Рўйхатдан ўтиш";
+
+
+"selection" = "Танлаш";
+"catalog" = "Каталог";
+"favorites" = "Сараланганлар";
+"profile" = "Профил";
+"basket" = "Сават";
+
+
+"other_goods" = "Бошқа товарлар";
+"all"   = "Хаммаси";
+"others" = "Бошқа";
+
+
+"error_connection" = "Афсуски,ҳатолик юз берди. Илтимос, интернетга уланинг.";
+
+"check_your_mail" = "Илтимос,э-почтангизга юборилган кўрсатмалар ёрдамида паролингизни ўзгартиринг ";
+
+// genders selection
+
+"woman_selector" = "Аёлларга";
+"man_selector" = "Эркакларга";
+"children_selector" = "Болаларга";
+
+
+// user info fields
+
+"customer" = "Ҳаридор";
+"name" = "Исм";
+"last_name" = "Фамилия";
+"mail" = "Эл. почта";
+"phone" = "Телефон рақами";
+"address" = "Манзил";
+"repassword" = "Паролни тасдиқлаш";
+
+"message_subject" = "Ҳабар мавзуси";
+"send" = "Юбориш";
+
+// check order
+"wrong_number" = "Рақам нотўғри киритилган";
+"check_order_status" = "Буюртма холатини текшириш";
+"co_text_if_something_1" = "Агар сизда буюртма бўйича бирон-бир шикоят, савол ёки буюртма рақамини эслай олмасангиз илтимос, мурожаат қилинг ";
+"co_text_if_something_2" = "Қўллаб-қувватлаш маркази.";
+
+
+"order_number" = "Буюртма рақами";
+
+"order_num" = "Буюртма № ";
+"status_" = "Холат : ";
+
+
+// profil
+
+"already_registered" = "Рўйҳатдан ўтканмисиз?";
+"do_registration" = "Рўйҳатдан ўтиш";
+"create_user" = "Хисоб қайдномаси яратиш";
+"start_session" = "Сеансни бошлаш";
+"forgot_password" = "Паролни унутдингизми?";
+"password" = "Парол";
+
+"my_orders" = "Буюртма қилинган";
+"registraion" = "Янги аккаунти рўйҳатдан ўтказиш";
+
+// login
+"wrong_login_data" = "Фойдаланувчи номи ва парол Mod.uz аккаунтларидан хеч бирига мос келмайди";
+"wrong_mail" = "Э-почта нотўғри киритилган";
+"wrong_phone_number"= "Телефон рақам нотўғри киритилган";
+"wrong_name" = "Исм нотўғри киритилган";
+"wrong_surname" = "Фамилия нотўғри киритилган";
+"password_is_longer" = "Парол узунроқ бўлиши керак";
+"passwords_are_different" = "Пароллар мос келмаяпти";
+"should_not_be_empty" = "Майдон бўш бўлмаслиги керак";
+
+"logout" = "Чиқиш";
+
+// product view
+"info_about_good" = "МАХСУЛОТ ХАҚИДА МАЪЛУМОТ";
+"info_composition_care" = "ТАРКИБ ВА ПАРВАРИШ";
+
+"share" = "УЛАШИШ";
+"no_size" = "ПОДЕЛИТЬСЯ";
+"choose_size" = "Ўлчамни танланг";
+
+"no_goods_left" = "Кечирасиз, товар тугади";
+
+"find_my_size" = "Менинг ўлчамимни топиш";
+"add_to_cart" = "Саватга қўшиш";
+"add_to_favorites" = "Сараланганларга қўшиш";
+
+// summery order
+
+"delivery_type" = "Йетказиб бериш тури";
+"payment_amount" = "Тўлов миқдори";
+"delivery_date" = "Йетказиб бериш вақти";
+
+"lbl_payment_amount" = "Тўлов миқдори";
+"lbl_was_payed" = "Тўланган";
+"lbl_payment_type" = "Тўлов усули";
+
+"dt_normal" = "Оддий";
+"dt_express" = "Экспресс";
+"dt_full" = "Тўлиқ";
+"dt_after_delivery" = "йетказиб беришдан кейин";
+
+
+
+"cost_shipping" = "Йетказиб бериш нархи";
+"discount_shipping" = "Йетказиб беришга чегирма";
+
+
+// order complete
+
+"your_order_num_completed" = "Сизнинг буюртмангиз № : %d муваффақиятли бажарилди";
+
+"delivery_ordinary" = "Юбориш: стандарт курьер";
+"delivery_express" = "Юбориш: экспресс";
+
+"was_payed_complete" = "Тўлиқ тўланган";
+"was_payed_half" = "Қисман тўланган";
+"will_be_payed" = "Қабул қилиб олингандан кейин тўлов";
+
+"warning_after_order_completed" =  "Диққат! Буюртномангиз кўриб чиқилгандан сўнг сизга СМС хабар келади, ёки менежеримиз сизга № %d буюртмасини тасдиқлаш учун мурожаат қилади";
+
+"congratulations_payment_completed" = "Табриклаймиз! Тўловингиз муваффақиятли ўтди";
+"sms_was_sent_on_num" = "%@ рақамига тасдиқлаш СМС тарзида юборилди";
+"sms_was_sent_with_code" = "%@ рақамига тасдиқлаш коди СМС тарзида юборилди";
+
+"put_in_code" = "Тасдиқлаш кодини киритинг";
+"code_for_check" = "Тасдиқлаш коди";
+
+"thanks" = "Рахмат!";
+"thanks_for_order" = "Буюртма учун рахмат!";
+"we_will_connect" =  "Тез орада биз сиз билан боғланамиз";
+
+"information_about_order" = "Сизнинг маълумотларингиз";
+
+// small views
+
+"choose_interval" = "Интервални танланг";
+"choose_delivery_interval" = "Йетказиб бериш оралиғини танланг";
+"choose_delivery_date" = "Йетказиб бериш санасини танланг";
+"choose_date" = "Мавжуд санани танланг";
+
+"filter" = "Филтр";
+
+"welcome" = "Ҳуш келибсиз";
+
+"put_in_text" = "Хабарни киритинг";
+
+"show_results" = "Натижаларни кўрсатиш";
+
+"write_us" = "Бизга ёзинг";
+"call_us" = "Бизга қўнғироқ қилинг";
+
+
+"colors" = "Ранглар";
+"prices" = "Нарҳлар";
+"sizes" = "Ўлчамлар";
+"brands" = "Брендлар";
+"categories" = "Тоифалар";
+
+"your_data" = "Сизнинг маълумотларингиз";
+"infoLabel_order_call" = "Бизга телефон рақамингизни қолдиринг ва биз сига 5 дақиқадан сўнг қўнғироқ қиламиз";
+
+
+"to_call" = "Қўнғироқ қилиш";
+"call_time" = "Душанбадан жумагача 9:00дан 21:00гача";
+
+// delivery
+
+"choose_delivery_type" = "Йетказиб бериш турини танланг";
+"normal_delivery" = "Оддий йетказиб бериш";
+"delivery_normal_description_1" = "Йетказиб бериш 4 дан 6 иш кунигача амалга оширилади.";
+"delivery_normal_description_2" = "Йетказиб бериш нарҳи буюртманинг нарҳидан фарқ қилади.";
+
+"checkout" = "Буюртма расмийлаштирилиши";
+"how_to_contact_you" = "Сиз билан қандай боғланиш мумкин?";
+"do_subscribe" = "Ахборотларга обуна бўлиш";
+"continue" = "Давом этиш";
+
+
+"delivery_address" = "Йетказиб бериш манзили";
+"enter_shipping_address" = "Йетказиб бериш манзилини киритинг";
+"adress_structure" = "Манзил (шахар, кўча, дом, ҳонадон...)";
+
+"payment_amount_description" = "Буюртма бериш учун тўлиқ тўловни амалга оширишингиз ёки товар келгандан кейин тўловни амалга оширишингиз мумкин.";
+
+
+"total_amount" = "Тўлиқ сумма";
+"total_amount_description" = "Тўлиқ сумма, буюртманинг тўлиқ суммасини ва йетказиб беришнинг керакли суммасини тўлашингизни англатади";
+
+"payment_after" = "Йетказиб беришданг сўнг тўлов";
+"payment_after_description" = "Йетказиб бериш ва буюртма тўловини, йетказиб беришдан сўнг амалга оширишингиз мумкин";
+
+"specify_delivery_time" = "Йетказиб бериш вақтини киритинг";
+"time_days" = "Йетказиб бериш 4 дан 6 иш кунигача амалга оширилади";
+
+
+"enter_card_info" = "Банк картангиз маълумотларини киритинг";
+"make_payment" = "Тўловни амалга ошириш";
+
+"order_info" = "Буюртма хакида маълумот";
+
+// sorting
+
+"sort_catalogue" = "Каталогларни саралаш";
+"on_popularity" = "машхурлик буйича";
+"on_price_upp" =  "қимматлари буйича";
+"on_price_down" =  "арзонлари буйича";
+"on_new" = "янгилари буйича";
+"on_discounts" = "чегирма буйича";
+
+
+// basket
+
+"tax_info_line" = "Солиқлар, йетказиб беришдан ташқари";
+"change" = "Узгартириш";
+"save" = "Сақлаш";
+
+
+
+//Network Errors
+
+"wrong_user_or_pass" = "Фойдаланувчи номи ёки пароли нотўғ.";
+"wrong_method_on_server" = "Уланишни текширинг (405)";
+
+
+// new
+
+"date_of_order" = "Buyurtma sanasi";
+
+"sku" = "Артикул";
+
+
+
+"find_order_status" = "Буюртмангиз қаерда еканлигини билиш";
+"find_conditions" = "Шарт-шароитларни билиб олинг";
+"choose_right_size" = "Тўғри ўлчамни танланг";
+
+
+"order_with_number" = "Буюртмангиз қаерда еканлигини билиш";
+"payment_conditions" = "Тўлов";
+"return_conditions" = "Қайтариш шартлари";
+"delivery_conditions" = "Йетказиб бериш";
+"how_choose_size" = "Тўғри ўлчамни танланг";
+"how_make_order" = "Буюртма қандай расмийлаштирилади?";
+"oferta" = "Оферта";
+
+
+"want_to_exit" = "Хотите выйти?";
+"payment" = "Тўлов";
+"support_service" = "Служба поддержки";
+
+
+"make_order_stuff" = "Буюртманинг расмийлаштирилиши";
+"support_service" = "Қўллаб-қувватлаш маркази";
+
+
+"order_call" = "Қўнғироқ буюртма қилиш";
+"question_ask" = "Бизга савол бериш";
+"our_contacts" = "Бизнинг контактларимиз";
+
+
+
+//tutorial
+
+"notif_turn_on_text" = " Қуйидаги мавзулар хақида маълумот олиш учун билдиришномаларни қўшинг:";
+
+"tutorial_text_1" = "Буюртмани кузатиш";
+"tutorial_text_2" = "Махсулотлар мавжуд";
+"tutorial_text_3" = "Маҳсус таклифлар ";
+
+
+// basket
+
+"basket_empty" = "Сизнинг саватдингизда хали хеч нарса йўқ";
+
+
+// favorites
+
+ "favorites_empty_2"= "Сиз хали саралангаларга хеч нарса қўшмадингиз";
+
+
+
+// delivery
+
+
+"choose_delivery_conditions" = "Йетказиб бериш шартларини танланг";
+
+"region" = "Шахар";
+"street" = "Кўча";
+"house" = "Уй";
+"flat" = "Хонадон";
+
+
+
+"delivery_date" = "Йетказиб бериш санаси: ";
+
+
+"delivery_price_" = "Йетказиб бериш нарҳи: ";
+"delivery_price_description" = "Йетказиб бериш нарҳи - %@ сотиб олиш миқдоридан каттий назар ";
+
+"choose_button" = "Танлаш";
+"choosen" = "Танланган";
+
+"countryDefault" = " Ўзбекистон";
+"cityDefault" = "Тошкент";
+
+"choose_payment_method" = "Тўлов турини танланг";
+
+
+"payment_with_card" = "Онлайн карта билан тўлаш";
+"goods_in_order" = "Буюртма бўйича товарлар";
+"goods_for_summ_in_order" = "Товарлар нарҳи";
+"delivery" = "Йетказиб бериш";
+"discounts" = "Чегирмалар";
+
+
+
+
+
+"delivery_time_today" = "Доставка день в день";
+"delivery_time_hour" = "Доставка стандартная";
+
+"start_buy2" = " ҳаридни бошлаш";
+
+
+
+
+
+
+"search_placeholder" = "Поиск вещей и брендов";
+
+"home_selector" = "Для дома";
+"see_all" = "Посмотреть все";
+"start_buy" = "Смотреть товары";
+
+"favorites_empt_1" = "Здесь пока пусто";
+"filters" = "Филтры";
+
+"label_description_in_contact_us" = "Если у Вас возникли любые вопросы по заказу, оформлению, статусу или доставке - пишите нам в чат. Мы будем рады помочь Вам!";
+
+
+"you_can_also_call" = "Вы так же можете позвонить нам по телефонам";
+
+
+"call_1_description"= "для звонков из регионов";
+"call_2_description"= "для звонков из Ташкента";
+"send_button"= "Отправить";
+
+
+"bonus_title" = "Привилегии";
+"bonus_title_text" = "Увеличивайте персональную скидку, сохраняйте избранное, получайте персональные рекомендации.";
+
+"do_login" = "Войти";
+"title_country" = "Выберите страну";
+"have_questions_" = "Остались вопросы?";
+"delivery_big_title" = "Доставка и возврат";
+"refund" = "Возврат";
+"refund_info" = "В течении 14 дней после получения заказа";
+"to_favorites" = "В избранное";
+
+
+"premium_styles" = "Premium styles";
+"see_all" = "See all";
+
+"call_you_" = "Позвонить Вам?";
+"faq"  = "Часто задаваемые вопросы";
+"support_service_MOD" = "Центр поддержки MOD";
+"about_MOD" = "О MOD";
+
+
+
+"more_questions" = "Остались вопросы по товару";
+"delivery_fitting" = "Доставка и примерка";
+
+"choose_lang" = "Выберите язык";
+
+"no_content" = "Раздел наполняется и скоро будет доступен для просмотра";
+"mod_lcc" = "С УВАЖЕНИЕМ MOD LLC";

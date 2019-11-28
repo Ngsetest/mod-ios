@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Version</string>
+			<key>Key</key>
+			<string>version_preference</string>
+			<key>DefaultValue</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Current language</string>
+			<key>Key</key>
+			<string>id_language</string>
+			<key>DefaultValue</key>
+			<string>ru</string>
+			<key>Values</key>
+			<array>
+				<string>ru</string>
+				<string>uz</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Русский</string>
+				<string>Uzbek</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Currancy</string>
+			<key>Key</key>
+			<string>id_currancy</string>
+			<key>DefaultValue</key>
+			<string>uz_Cyrl_UZ</string>
+			<key>Values</key>
+			<array>
+				<string>en_US</string>
+				<string>uz_Cyrl_UZ</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>USD</string>
+				<string>UZB</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Payment Real Account</string>
+			<key>Key</key>
+			<string>card_live_is_on</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+	</array>
+</dict>
+</plist>

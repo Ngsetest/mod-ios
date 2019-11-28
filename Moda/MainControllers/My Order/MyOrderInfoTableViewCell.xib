@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gerbera-Medium.otf">
+            <string>Gerbera-Medium</string>
+        </array>
+        <array key="Gerbera.otf">
+            <string>Gerbera</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="161" id="KGk-i7-Jjw" customClass="MyOrderInfoTableViewCell" customModule="Moda" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="161"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="160.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" tag="10" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pG2-fq-Np4">
+                        <rect key="frame" x="16" y="4" width="100" height="151.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="gti-KR-3pC"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="МАНГО" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PYr-b2-02G">
+                        <rect key="frame" x="136" y="10" width="168" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="hnG-EV-hF3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Gerbera-Medium" family="Gerbera" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Количество:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zn8-Pd-2zS">
+                        <rect key="frame" x="136" y="99.5" width="82" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="qwZ-wf-OPM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Gerbera-Medium" family="Gerbera" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Мультиколор" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lhj-5s-Edj">
+                        <rect key="frame" x="177" y="76.5" width="89" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="8O0-nC-Mvs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Gerbera-Medium" family="Gerbera" pointSize="14"/>
+                        <color key="textColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 шт." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aAH-LV-qUx">
+                        <rect key="frame" x="223" y="99.5" width="33" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="NAV-cf-UGj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Gerbera-Medium" family="Gerbera" pointSize="14"/>
+                        <color key="textColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Рубашка" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rto-dB-MvA">
+                        <rect key="frame" x="136" y="29" width="168" height="16.5"/>
+                        <fontDescription key="fontDescription" name="Gerbera-Medium" family="Gerbera" pointSize="14"/>
+                        <color key="textColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40/42" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4b2-NT-vfp">
+                        <rect key="frame" x="194.5" y="55.5" width="33.5" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="QWU-F9-h99"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Gerbera-Medium" family="Gerbera" pointSize="13"/>
+                        <color key="textColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Цвет:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gIF-DQ-boB">
+                        <rect key="frame" x="136" y="76.5" width="36" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="wRm-Ge-rOf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Gerbera-Medium" family="Gerbera" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Размер:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ejd-FA-R4x">
+                        <rect key="frame" x="136" y="55.5" width="53.5" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="Pwj-OA-Yuy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Gerbera-Medium" family="Gerbera" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lK2-0i-ohY">
+                        <rect key="frame" x="136" y="124.5" width="35.5" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="Y9h-Dv-GA7"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="9999">
+                                <attributes>
+                                    <font key="NSFont" size="14" name=".AppleSystemUIFont"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    <integer key="NSStrikethrough" value="1"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Odt-g9-xMk">
+                        <rect key="frame" x="16" y="159.5" width="288" height="1"/>
+                        <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="kqQ-HR-gip"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="999 сум" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hvj-vX-HmB">
+                        <rect key="frame" x="187.5" y="124.5" width="51.5" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="p24-A2-gJa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Gerbera-Medium" family="Gerbera" pointSize="14"/>
+                        <color key="textColor" red="1" green="0.41960784309999999" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="# 0000" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f6p-bE-zNo">
+                        <rect key="frame" x="16" y="137.5" width="100" height="14"/>
+                        <color key="backgroundColor" red="0.99179428815841675" green="0.99251252412796021" blue="0.97476214170455933" alpha="0.14212328769999999" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" name="Gerbera" family="Gerbera" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Ejd-FA-R4x" firstAttribute="leading" secondItem="pG2-fq-Np4" secondAttribute="trailing" constant="20" id="4pM-Bf-6d2"/>
+                    <constraint firstItem="zn8-Pd-2zS" firstAttribute="top" secondItem="Lhj-5s-Edj" secondAttribute="bottom" constant="6" id="4qX-Mm-x3L"/>
+                    <constraint firstAttribute="bottom" secondItem="Odt-g9-xMk" secondAttribute="bottom" id="6E5-6b-wPx"/>
+                    <constraint firstAttribute="trailing" secondItem="Odt-g9-xMk" secondAttribute="trailing" constant="16" id="9ew-Zo-pcG"/>
+                    <constraint firstItem="f6p-bE-zNo" firstAttribute="leading" secondItem="pG2-fq-Np4" secondAttribute="leading" id="9t1-hj-2P8"/>
+                    <constraint firstItem="gIF-DQ-boB" firstAttribute="leading" secondItem="pG2-fq-Np4" secondAttribute="trailing" constant="20" id="B6y-k2-UB9"/>
+                    <constraint firstItem="PYr-b2-02G" firstAttribute="leading" secondItem="pG2-fq-Np4" secondAttribute="trailing" constant="20" id="CUT-wo-f5G"/>
+                    <constraint firstAttribute="trailing" secondItem="PYr-b2-02G" secondAttribute="trailing" constant="16" id="D2e-7B-ZNK"/>
+                    <constraint firstItem="zn8-Pd-2zS" firstAttribute="leading" secondItem="pG2-fq-Np4" secondAttribute="trailing" constant="20" id="FCT-j6-CPd"/>
+                    <constraint firstItem="aAH-LV-qUx" firstAttribute="leading" secondItem="zn8-Pd-2zS" secondAttribute="trailing" constant="5" id="IkF-HD-K5e"/>
+                    <constraint firstItem="lK2-0i-ohY" firstAttribute="leading" secondItem="pG2-fq-Np4" secondAttribute="trailing" constant="20" id="Ilq-5t-Bx2"/>
+                    <constraint firstItem="pG2-fq-Np4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Is3-gc-PSV"/>
+                    <constraint firstItem="Lhj-5s-Edj" firstAttribute="leading" secondItem="gIF-DQ-boB" secondAttribute="trailing" constant="5" id="J5U-bd-KMP"/>
+                    <constraint firstItem="lK2-0i-ohY" firstAttribute="top" secondItem="zn8-Pd-2zS" secondAttribute="bottom" constant="10" id="Rz4-cV-stl"/>
+                    <constraint firstItem="PYr-b2-02G" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Tr2-nI-pYo"/>
+                    <constraint firstItem="Odt-g9-xMk" firstAttribute="top" secondItem="f6p-bE-zNo" secondAttribute="bottom" constant="8" id="UH6-Y1-y5a"/>
+                    <constraint firstItem="hvj-vX-HmB" firstAttribute="top" secondItem="zn8-Pd-2zS" secondAttribute="bottom" constant="10" id="Ulu-YD-7qH"/>
+                    <constraint firstItem="Lhj-5s-Edj" firstAttribute="top" secondItem="Ejd-FA-R4x" secondAttribute="bottom" constant="6" id="V5J-Z7-QYg"/>
+                    <constraint firstItem="4b2-NT-vfp" firstAttribute="leading" secondItem="Ejd-FA-R4x" secondAttribute="trailing" constant="5" id="W0c-wp-y3f"/>
+                    <constraint firstItem="hvj-vX-HmB" firstAttribute="leading" secondItem="lK2-0i-ohY" secondAttribute="trailing" constant="16" id="ZgD-Fq-pfn"/>
+                    <constraint firstAttribute="trailing" secondItem="rto-dB-MvA" secondAttribute="trailing" constant="16" id="apt-Ba-JM9"/>
+                    <constraint firstItem="Odt-g9-xMk" firstAttribute="top" relation="greaterThanOrEqual" secondItem="lK2-0i-ohY" secondAttribute="bottom" constant="4" id="b2A-hH-BRr"/>
+                    <constraint firstItem="gIF-DQ-boB" firstAttribute="top" secondItem="Ejd-FA-R4x" secondAttribute="bottom" constant="6" id="bsA-iF-O73"/>
+                    <constraint firstItem="rto-dB-MvA" firstAttribute="leading" secondItem="pG2-fq-Np4" secondAttribute="trailing" constant="20" id="dJN-DP-ev4"/>
+                    <constraint firstItem="4b2-NT-vfp" firstAttribute="top" secondItem="rto-dB-MvA" secondAttribute="bottom" constant="10" id="dxL-HB-nIP"/>
+                    <constraint firstItem="Ejd-FA-R4x" firstAttribute="top" secondItem="rto-dB-MvA" secondAttribute="bottom" constant="10" id="gv2-43-GqP"/>
+                    <constraint firstItem="rto-dB-MvA" firstAttribute="top" secondItem="PYr-b2-02G" secondAttribute="bottom" constant="3" id="hin-nx-O3I"/>
+                    <constraint firstItem="pG2-fq-Np4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="j6w-im-eG6"/>
+                    <constraint firstItem="Odt-g9-xMk" firstAttribute="top" relation="greaterThanOrEqual" secondItem="hvj-vX-HmB" secondAttribute="bottom" constant="4" id="jm2-Gy-jJr"/>
+                    <constraint firstItem="f6p-bE-zNo" firstAttribute="trailing" secondItem="pG2-fq-Np4" secondAttribute="trailing" id="stK-uM-5nm"/>
+                    <constraint firstItem="Odt-g9-xMk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="t84-ve-TqL"/>
+                    <constraint firstItem="aAH-LV-qUx" firstAttribute="top" secondItem="Lhj-5s-Edj" secondAttribute="bottom" constant="6" id="xaa-Ub-pbp"/>
+                    <constraint firstItem="Odt-g9-xMk" firstAttribute="top" secondItem="pG2-fq-Np4" secondAttribute="bottom" constant="4" id="yAd-za-Q9J"/>
+                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="hvj-vX-HmB" secondAttribute="trailing" constant="4" id="zZp-Rv-CEs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="brandLabel" destination="PYr-b2-02G" id="rrg-rf-sUE"/>
+                <outlet property="colorLabel" destination="Lhj-5s-Edj" id="OQ0-Uz-Jq1"/>
+                <outlet property="colorLabelName" destination="gIF-DQ-boB" id="06J-OA-gJu"/>
+                <outlet property="discountPriceLabel" destination="hvj-vX-HmB" id="SpT-Vm-3Sx"/>
+                <outlet property="idLabel" destination="f6p-bE-zNo" id="j7d-ps-Qze"/>
+                <outlet property="oldPriceLabel" destination="lK2-0i-ohY" id="zfb-Dh-g8D"/>
+                <outlet property="quantityLabel" destination="aAH-LV-qUx" id="NA4-Rt-e8e"/>
+                <outlet property="quantityLabelName" destination="zn8-Pd-2zS" id="2ZL-hH-7ja"/>
+                <outlet property="sizeLabel" destination="4b2-NT-vfp" id="pDc-y5-ynz"/>
+                <outlet property="sizeLabelName" destination="Ejd-FA-R4x" id="kfT-Wg-xBM"/>
+                <outlet property="typeLabel" destination="rto-dB-MvA" id="lAh-O0-Bgz"/>
+            </connections>
+            <point key="canvasLocation" x="14.4" y="-78.710644677661179"/>
+        </tableViewCell>
+    </objects>
+</document>
